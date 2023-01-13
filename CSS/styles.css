@@ -1,5 +1,5 @@
 header {
-    background-image: url(img/Fundo.jpg);
+    background-image: url(/img/Fundo.jpg);
     background-size: 50%;
     background-repeat: repeat;
     height: 15rem;
@@ -34,14 +34,19 @@ main {
     padding-top: 15rem;
 }
 
-.ferreiro {
+.doce {
+    margin: 50px;
+    border: solid 20px;
+    border-radius: 20px;
+    width: 360px;
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
-.Ferreiro-rocher {
-    width: 300px;
-    height: 300px;
+.doces {
+    width: 320px;
+    height: 148px;
 }
 
 .botao {
