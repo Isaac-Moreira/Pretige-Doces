@@ -12,6 +12,8 @@ header {
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 90%;
     gap: 3rem;
 }
 
@@ -24,8 +26,13 @@ header {
     height: 100%;
 }
 
+.fabinsta {
+    font-size: 30px;
+    color: blueviolet;
+}
+
 a {
-    color: blue;
+    color: blueviolet;
     font-size: 1.3rem;
     font-weight: bold;
 }
